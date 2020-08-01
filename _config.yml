@@ -9,17 +9,41 @@ url: "http://www.aistats.org" # the base hostname & protocol for your site
 #twitter_username: aistat
 github_username:  aistats
 
+author:
+  name: AISTATS
+comments: false
+plugins:
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+
+ghub:
+  edit: true
+  repository: aistats2016
+banner:
+  image: resort.jpg
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  logo: logo.jpg
+  hide_tentative: true
+  proceedings:
+    url: http://proceedings.mlr.press/v54/
+    show: true
+  room: Room
+  venue: Hyatt Regency Pier 66
+  venue_url: https://www.pier66hotelmarina.com/
+  location: Ft. Lauderdale, FL, USA
+  full_name: Artificial Intelligence and Statistics
+  name: AISTATS
+  year: 2017
+  instance: 20th
+  styling: International Conference on
+  dates:
+  - 2017-04-20
+  - 2017-04-22
+
 # Build settings
 markdown: kramdown
 
 # change encoding for the generated output files to utf-8
 encoding: utf-8
-
-# Handling Reading
-#safe:         false
-#include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
