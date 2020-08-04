@@ -1,148 +1,92 @@
 ---
 title: Organizers
 layout: default
+hide: false
+weight: 4
 ---
 
-<h1>AISTATS 2017 Organizing Committee</h1>
+<h1>{{ site.conference.name }} {{ site.conference.year }} Organizing Committee</h1>
 
-<p>General inquiries should be sent to aistats2017@gmail.com.</p>
-    
-
-	<h3>Program Chairs</h3>
-            <div>
-               <ul>
-         <li><a href="http://www.cs.cmu.edu/~aarti/">Aarti Singh</a>, <i>Machine Learning Department, Carnegie Mellon University</i> 
-</li> 
-         <li><a href="http://pages.cs.wisc.edu/~jerryzhu/">Jerry Zhu</a>, <i>Department of Computer Sciences, University of Wisconsin -- Madison</i>  
-</li>
-               </ul>
-             </div>
-
-         <h3>Workflow Chairs</h3>
-             <div>
-               <ul>
-
-                <li><a href="http://www.cs.wisc.edu/~salfeld">Scott Alfeld</a>, <i>Department of Computer Sciences, University of Wisconsin -- Madison
-</i> </li>
+{% if site.conference.chairs %}
+{% for chair in site.conference.chairs %}
+{% include listchairs.html %}
+{% endfor %}
+{% endif %}
 
 
-                <li><a href="http://www.cs.cmu.edu/~weiyu/">Adams Wei Yu</a>, <i>Machine Learning Department, Carnegie Mellon University
-</i> </li>
-            </ul>
+<h3>Senior Program Committee</h3>
+  <ul>
+    <li>Akshay Krishnamurthy    (Univ. of Massachusetts, Amherst) </li>
+    <li>Alex    Dimakis    (Univ. of Texas, Austin)</li>
+    <li>Ambuj    Tewari    (Univ. of Michigan, Ann Arbor)</li>
+    <li>Amir    Globerson    (Tel Aviv University) </li>
+    <li>Andriy    Mnih    (Google Deepmind) </li>
+    <li>Anima Anandkumar (Univ. of California, Irvine) </li>
+    <li>Aryeh    Kontorovich    (Ben-Gurion Univ.)</li>
+    <li>Bharath    Sriperumbudur    (Pennsylvania State Univ.)</li>
+    <li>Brian    Kulis    (Boston Univ.)</li>
+    <li>Byron    Boots    (Georgia Tech.)</li>
+    <li>Chris Williams    (University of Edinburgh)</li>
+    <li>Claire    Monteleoni  (George Washington Univ.)</li>
+    <li> Cosma    Shalizi    (Carnegie Mellon Univ.)    </li>
+    <li>Daniel Lee    (Univ. of Pennsylvania)</li>
+    <li>Daniel    Hsu    (Columbia Univ.)</li>
+    <li>David    Duvenaud   (Univ. of Toronto)</li>
+    <li>Dino    Sejdinovic    (Oxford Univ.)</li>
+    <li>Ery    Arias-Castro    (Univ. of California, San Diego)</li>
+    <li>Feiping    Nie (Univ. of Texas, Arlington)</li>
+    <li>Francesco    Orabona    (Yahoo)</li>
+    <li>Garvesh    Raskutti (Univ. of Wisconsin, Madison)</li>
+    <li>Hongyuan    Zha    (Georgia Tech.)</li>
+    <li>Iain    Murray    (Univ. of Edinburgh)</li>
+    <li>James    Zou    (Microsoft Research)</li>
+    <li>Joan    Bruna    (Univ. of California, Berkeley)</li>
+    <li>John    Paisley    (Columbia Univ.)</li>
+    <li>Joseph    Gonzalez    (Univ. of California, Berkeley)</li>
+    <li>Jun    Zhu    (Tsinghua Univ.)</li>
+    <li>Kamalika Choudhary (Univ. of California, San Diego)</li>
+    <li>Karthik    Sridharan (Cornell Univ.)</li>
+    <li>Koby    Crammer    (Technion)</li>
+    <li>Kun    Zhang    (Carnegie Mellon Univ.)</li>
+    <li>Laura    Balzano    (Univ. of Michigan, Ann Arbor)</li>
+    <li>Lawrence    Murray    (Oxford Univ.)</li>
+    <li>Le    Song    (Georgia Tech.)</li>
+    <li>Lihong    Li    (Microsoft Research)</li>
+    <li>Marina    Meila (Univ. of Washington, Seattle)</li>
+    <li>Mark    Davenport    (Georgia Tech.)</li>
+    <li>Masashi    Sugiyama  (Univ. of Tokyo)</li>
+    <li>Matt    Harrison    (Brown Univ.)</li>
+    <li>Matthias    Seeger    (Amazon)</li>
+    <li>Maxim Raginsky    (Univ. of Illinois, Urbana Champaign)</li>   
+    <li>Michael    Mahoney    (Univ. of California, Berkeley)</li>
+    <li>Mladen Kolar    (Univ. of Chicago)</li>
+    <li>Nati    Srebro    (Toyota Technological Institute, Chicago)</li>
+    <li>Po-Ling Loh (Univ. of Wisconsin, Madison)</li>
+    <li>Raman    Arora (Johns Hopkins Univ.)</li>
+    <li>Remi    Munos (INRIA)</li>
+    <li>Rene    Vidal (Johns Hopkins Univ.)</li>
+    <li>Rob    Nowak (Univ. of Wisconsin, Madison)</li>
+    <li>Roger    Grosse    (Univ. of Toronto)</li>
+    <li>Ryan    Adams    (Harvard Univ.)</li>
+    <li>Ryan    Tibshirani (Carnegie Mellon Univ.)</li>
+    <li>Sahand    Negahban (Yale Univ.)</li>
+    <li>Samory    Kpotufe    (Princeton Univ.)</li>
+    <li>Sanjoy    Dasgupta (Univ. of California, San Diego)</li>
+    <li>Scott    Yih (Microsoft Research)</li>
+    <li>Shai    Ben-David (Univ. of Waterloo)</li>
+    <li>Sinead    Williamson (Univ. of Texas, Austin)</li>
+    <li>Sivaraman    Balakrishnan (Carnegie Mellon Univ.)</li>
+    <li>Stefano     Ermon     (Stanford Univ.)</li>
+    <li>Steve    Hanneke (independent)</li>
+    <li>Steven    Hoi (Singapore Management Univ.) </li>
+    <li>Sujay    Sanghavi    (Univ. of Texas, Austin)</li>
+    <li>Tong    Zhang    (Rutgers Univ.)</li>
+    <li>Vikas    Sindhwani    (Google)</li>
+    <li>Vinayak    Rao    (Purdue Univ.)</li>
+    <li>Volkan    Cevher    (EPFL)</li>
+    <li>Xuanlong    Nguyen    (Univ. of Michigan, Ann Arbor)</li>
+    <li>Yudong    Chen    (Cornell Univ.)</li>
+    <li>Zhi-Hua    Zhou    (Nanjing Univ.)</li>
+    <li>Zoltan    Szabo    (Univ. College, London)</li>
+  </ul>
 
-             </div>
-
-    <h3>Publicity Chair</h3>
-       <div>
-            <ul>
-            <li><a href="http://www.cs.berkeley.edu/~aramdas">Aaditya Ramdas</a>, <i>EECS and Statistics, University of California -- Berkeley</i></li>
-               </ul>
-
-      </div>
-
-
-    <h3>Publication Chair</h3>
-       <div>
-            <ul>
-            <li><a href="http://www.cs.cmu.edu/~bapoczos/">Barnabas Poczos</a>, <i>Machine Learning Department, Carnegie Mellon University</i> </li>
-               </ul>
-
-      </div>
-
-    <h3>Fundraising Chair</h3>
-       <div>
-            <ul>
-            <li><a href="http://research.microsoft.com/en-us/um/people/alekha/">Alekh Agarwal</a>, <i>Microsoft Research, New York</i></li>
-               </ul>
-
-      </div>
-
-      <h3>Conference Admins</h3>
-       	 <div>
-			<ul>
-            <li>Karen Smith
-            <li>Daryl Pregibon
-             </ul>
-       	 </div>
-
-
-    <h3>Senior Program Committee</h3>
-    <div>
-
-
-   
- Akshay Krishnamurthy    (Univ. of Massachusetts, Amherst) <br>
-    Alex    Dimakis    (Univ. of Texas, Austin)<br>
-    Ambuj    Tewari    (Univ. of Michigan, Ann Arbor)<br>
-    Amir    Globerson    (Tel Aviv University) <br>
-    Andriy    Mnih    (Google Deepmind) <br>
-    Anima Anandkumar (Univ. of California, Irvine) <br>
-    Aryeh    Kontorovich    (Ben-Gurion Univ.)<br>
-    Bharath    Sriperumbudur    (Pennsylvania State Univ.)<br>
-    Brian    Kulis    (Boston Univ.)<br>
-    Byron    Boots    (Georgia Tech.)<br>
-    Chris Williams    (University of Edinburgh)<br>
-    Claire    Monteleoni  (George Washington Univ.)<br>
-     Cosma    Shalizi    (Carnegie Mellon Univ.)    <br>
-    Daniel Lee    (Univ. of Pennsylvania)<br>
-    Daniel    Hsu    (Columbia Univ.)<br>
-    David    Duvenaud   (Univ. of Toronto)<br>
-    Dino    Sejdinovic    (Oxford Univ.)<br>
-    Ery    Arias-Castro    (Univ. of California, San Diego)<br>
-    Feiping    Nie (Univ. of Texas, Arlington)<br>
-    Francesco    Orabona    (Yahoo)<br>
-    Garvesh    Raskutti (Univ. of Wisconsin, Madison)<br>
-    Hongyuan    Zha    (Georgia Tech.)<br>
-    Iain    Murray    (Univ. of Edinburgh)<br>
-    James    Zou    (Microsoft Research)<br>
-    Joan    Bruna    (Univ. of California, Berkeley)<br>
-    John    Paisley    (Columbia Univ.)<br>
-    Joseph    Gonzalez    (Univ. of California, Berkeley)<br>
-    Jun    Zhu    (Tsinghua Univ.)<br>
-    Kamalika Choudhary (Univ. of California, San Diego)<br>
-    Karthik    Sridharan (Cornell Univ.)<br>
-    Koby    Crammer    (Technion)<br>
-    Kun    Zhang    (Carnegie Mellon Univ.)<br>
-    Laura    Balzano    (Univ. of Michigan, Ann Arbor)<br>
-    Lawrence    Murray    (Oxford Univ.)<br>
-    Le    Song    (Georgia Tech.)<br>
-    Lihong    Li    (Microsoft Research)<br>
-    Marina    Meila (Univ. of Washington, Seattle)<br>
-    Mark    Davenport    (Georgia Tech.)<br>
-    Masashi    Sugiyama  (Univ. of Tokyo)<br>
-    Matt    Harrison    (Brown Univ.)<br>
-    Matthias    Seeger    (Amazon)<br>
-    Maxim Raginsky    (Univ. of Illinois, Urbana Champaign)<br>   
-    Michael    Mahoney    (Univ. of California, Berkeley)<br>
-    Mladen Kolar    (Univ. of Chicago)<br>
-    Nati    Srebro    (Toyota Technological Institute, Chicago)<br>
-    Po-Ling Loh (Univ. of Wisconsin, Madison)<br>
-    Raman    Arora (Johns Hopkins Univ.)<br>
-    Remi    Munos (INRIA)<br>
-    Rene    Vidal (Johns Hopkins Univ.)<br>
-    Rob    Nowak (Univ. of Wisconsin, Madison)<br>
-    Roger    Grosse    (Univ. of Toronto)<br>
-    Ryan    Adams    (Harvard Univ.)<br>
-    Ryan    Tibshirani (Carnegie Mellon Univ.)<br>
-    Sahand    Negahban (Yale Univ.)<br>
-    Samory    Kpotufe    (Princeton Univ.)<br>
-    Sanjoy    Dasgupta (Univ. of California, San Diego)<br>
-    Scott    Yih (Microsoft Research)<br>
-    Shai    Ben-David (Univ. of Waterloo)<br>
-    Sinead    Williamson (Univ. of Texas, Austin)<br>
-    Sivaraman    Balakrishnan (Carnegie Mellon Univ.)<br>
-    Stefano     Ermon     (Stanford Univ.)<br>
-    Steve    Hanneke (independent)<br>
-    Steven    Hoi (Singapore Management Univ.) <br>
-    Sujay    Sanghavi    (Univ. of Texas, Austin)<br>
-    Tong    Zhang    (Rutgers Univ.)<br>
-    Vikas    Sindhwani    (Google)<br>
-    Vinayak    Rao    (Purdue Univ.)<br>
-    Volkan    Cevher    (EPFL)<br>
-    Xuanlong    Nguyen    (Univ. of Michigan, Ann Arbor)<br>
-    Yudong    Chen    (Cornell Univ.)<br>
-    Zhi-Hua    Zhou    (Nanjing Univ.)<br>
-    Zoltan    Szabo    (Univ. College, London)<br>
-
-      </div>
-    
