@@ -37,7 +37,7 @@ conference:
   proceedings:
     url: http://proceedings.mlr.press/v54/
     show: true
-  room: Room
+  room: 
   venue: Hyatt Regency Pier 66
   venue_url: https://www.pier66hotelmarina.com/
   location: Ft. Lauderdale, FL, USA
