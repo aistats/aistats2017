@@ -21,7 +21,7 @@ style: aistats
 
 ghub:
   edit: true
-  repository: aistats2016
+  repository: aistats2017
 banner: resort.jpg
 
 # Build settings
