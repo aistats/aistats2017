@@ -16,7 +16,7 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
-remote_theme: lawrennd/proceedings
+remote_theme: aistats/jekyll-theme
 style: aistats
 
 ghub:
@@ -29,70 +29,3 @@ markdown: kramdown
 
 # change encoding for the generated output files to utf-8
 encoding: utf-8
-  
-conference:
-  draft: false # set to True if the programme is draft only.
-  image: fortlauderdale.jpg
-  hide_tentative: true
-  proceedings:
-    url: http://proceedings.mlr.press/v54/
-    show: true
-  room: 
-  venue: Hyatt Regency Pier 66
-  venue_url: https://www.pier66hotelmarina.com/
-  location: Ft. Lauderdale, FL, USA
-  full_name: Artificial Intelligence and Statistics
-  short_name: AISTATS
-  name: Artificial Intelligence and Statistics
-  year: 2017
-  instance: 20th
-  styling: International Conference on
-  dates:
-  - 2017-04-20
-  - 2017-04-22
-  chairs:  
-  - type: Program Chairs
-    people:
-    - family: Singh
-      given: Aarti
-      url: http://www.cs.cmu.edu/~aarti/
-      institute: Machine Learning Department, Carnegie Mellon University
-    - family: Zhu
-      given: Jerry
-      url: http://pages.cs.wisc.edu/~jerryzhu/
-      institute: Department of Computer Sciences, University of Wisconsin, Madison
-  - type: Workflow Chairs
-    people:
-    - family: Alfeld
-      given: Scott
-      url: http://www.cs.wisc.edu/~salfeld
-      institute: Department of Computer Sciences, University of Wisconsin, Madison
-    - family: You
-      given: Adams Wei
-      url: http://www.cs.cmu.edu/~weiyu/
-      institute: Machine Learning Department, Carnegie Mellon University      
-  - type: Publicity Chair</h3>
-    people:
-    - family: Ramdas
-      given: Aaditya
-      url: http://www.cs.berkeley.edu/~aramdas
-      institute: EECS and Statistics, University of California, Berkeley
-  - type: Publication Chair</h3>
-    people:
-    - family: Poczos
-      given: Barnabas
-      institute: Machine Learning Department, Carnegie Mellon University
-      url: http://www.cs.cmu.edu/~bapoczos/
-  - type: Fundraising Chair
-    people:
-    - family: Agarwal
-      given: Alekh
-      institute: Microsoft Research, New York
-      url: http://research.microsoft.com/en-us/um/people/alekha/
-  - type: Conference Admins
-    people:
-    - family: Smith
-      given: Karen
-    - family: Pregibon
-      given: Daryl
-
